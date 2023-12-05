@@ -1,3 +1,7 @@
+.test {
+    border: solid 1px #bbbbbb;
+    margin:0 10%;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -5,15 +9,14 @@
     width: 100%;
 }
 .header-img img {
-    width: 250px;
-    padding-left: 40px;
+    width: 30%;
     padding-top: 10px;
 }
 
 .header-nav-list {
     display: flex;
     list-style: none;
-    margin: 20px;
+    padding: 20px;
 }
 .header-nav-item a {
     padding-left: 20px;
@@ -38,7 +41,7 @@
     position: absolute;
     top:20%;
     font-family: 'Ephesis', cursive;
-    font-size: 100px;
+    font-size: 400%;
     margin-left: 20%;
     color: #ff3366;
 
@@ -48,7 +51,7 @@
 }
 .main-text-tag {
     position: absolute;
-    top: 55%;
+    top: 40%;
     margin-left: 20%;
     color: #ff3366;
     font-weight: bolder;
@@ -56,14 +59,14 @@
 }
 .main-text-pickup {
     position: absolute;
-    top:60%;
+    top:45%;
     margin-left: 20%;
     color: #bbbbbb;
     font-size: 20px;
 }
 .list {
     text-align: left;
-    margin-left: 30%;
+    padding-left: 30%;
 }
 .list-sab {
     font-family: 'Ephesis', cursive;
@@ -119,26 +122,24 @@
    display: flex;
 }
 .content-about-post {
-    padding-top: 50px;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding: 5%;
     font-size: 20px;
     color: #999999;
 }
 .content-about-info {
     display: inline-block;
-    padding-top: 50px;
+    padding-top: 5%;
 }
 .content-img {
     width: 100%;
 }
 .content-img img {
-    width: 400px;
+    width: 80%;
     padding-right:40px ;
     padding-bottom: 100px;
 }
 .item {
-    margin-left: 15%;
+    padding-left: 20%;
 }
 .item-sab {
     font-family: 'Ephesis', cursive;
@@ -161,9 +162,8 @@
     width: 40%;
 }
 .img-text img{
-    padding: 50px 90px;
-    width: 60%;
-    text-align: center;
+    padding: 20% 30%;
+    width: 40%;
 }
 .item-img-text-title {
     text-align: center;
@@ -217,7 +217,7 @@
     font-size: 20px;
 }
 .box {
-    margin-left: 10%;
+    padding-left: 10%;
 }
 .box-sab {
     font-family: 'Ephesis', cursive;
@@ -268,14 +268,12 @@
 .tag {
     display: flex;
     justify-content: space-between;
-    color: #999999
+    color: #999999;
+    font-size: 10%;
 }
 .box-tag {
     padding-left: 10px;
     padding-bottom: 20px;
-}
-.box-date {
-    margin-right: 10px;
 }
 .box-center{
     text-align: center;
@@ -293,8 +291,9 @@
     color: #ff3366;
 }
 .block {
-    margin-left: 30%;
+    padding-left: 40%;
     margin-bottom: 70px;
+    width: 80%;
 }
 .block-sab {
     font-family: 'Ephesis', cursive;
@@ -315,7 +314,7 @@
 }
 .block-list-item-detail {
     border: solid 1px #bbbbbb;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     background-color: #cccccc;
 }
 .block-list-item-description {
@@ -327,12 +326,12 @@
     position: relative;
 }
 .card-img img {
-    width: 720px;
+    width:100%;
 }
 .card-text {
     position: absolute;
-    top: 150px;
-    left: 200px;
+    top: 30%;
+    left: 20%;
     color: #fff;
     font-size: 40px;
 }
@@ -341,12 +340,12 @@
     position: relative;
 }
 .text-img img {
-    width: 720px;
+    width: 100%;
 }
 .card-service-category {
     position: absolute;
-    top: 150px;
-    left: 200px;
+    top: 30%;
+    right: 20%;
     font-size: 40px;
     color: #fff;
 }
