@@ -1,6 +1,7 @@
 .test {
     border: solid 1px #bbbbbb;
-    margin:0 10%;
+    margin: 0 5%;
+    max-width: 1230px;
 }
 .header {
     display: flex;
@@ -11,6 +12,7 @@
 .header-img img {
     width: 30%;
     padding-top: 10px;
+    margin-right: 65%;
 }
 
 .header-nav-list {
@@ -43,7 +45,7 @@
     font-family: 'Ephesis', cursive;
     font-size: 400%;
     margin-left: 20%;
-    color: #ff3366;
+    color: #cc00cc;
 
 }
 .main-item {
@@ -53,7 +55,7 @@
     position: absolute;
     top: 40%;
     margin-left: 20%;
-    color: #ff3366;
+    color: #cc00cc;
     font-weight: bolder;
     font-size: 30px;
 }
@@ -139,7 +141,7 @@
     padding-bottom: 100px;
 }
 .item {
-    padding-left: 20%;
+    padding: 10%;
 }
 .item-sab {
     font-family: 'Ephesis', cursive;
@@ -154,70 +156,78 @@
         font-weight: bold;
 }
 .item-img {
-    display: flex;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns:  2fr 2fr;
    
 }
 .item-img-text {
+    grid-row: 1/3;
+    grid-column: 1/2;
     background-color: #ff3366;
-    width: 40%;
 }
 .img-text img{
-    padding: 20% 30%;
-    width: 40%;
+    margin: 10% 20%;
+    width: 60%;
 }
 .item-img-text-title {
     text-align: center;
     color: #fff;
-    padding-bottom: 10px;
     font-size: 20px;
 }
 .item-img-text-about {
     text-align: center;
     color: #fff;
-    padding-bottom: 40px;
+    font-size: 16px;
+    padding: 20px 50px;
 }
 .item-img-group {
     background-color: #9933cc;
+    grid-row: 1/2;
+    grid-column: 2/3;
     display: flex;
-    width: 90%;
-    height: 50%;
     color: #fff;
 }
 .img-group img {
     width: 80%;
-    padding-top:20px;
+    padding-top:30px;
     text-align: center;
 
 }
 .item-img-group-title{
     font-size: 20px;
-    padding-bottom: 10px;
+    padding: 20px 0;
+}
+.item-img-group-about{
+    font-size: 14px;
 }
 .flex-item {
-    padding-top: 20%;
+    padding-top: 10%;
     padding-right: 20px;
 }
 .item-img-card {
     display: flex;
     background-color: #6666ff;
-    width: 90%;
-    height: 50%;
+    grid-row: 2/3;
+    grid-column: 2/3;
     color: #fff;
 }
 .img-card img {
-   width: 80%;
-   padding-top: 10px;
+   width: 90%;
+   padding-top: 30px;
 }
 .flex-card {
-    padding-top: 20%;
+    padding-top: 10%;
     padding-right: 10px;
 }
 .item-img-card-title {
-    padding-bottom: 10px;
+    padding: 20px 0;
     font-size: 20px;
 }
 .box {
-    padding-left: 10%;
+    padding-bottom: 10%;
+    padding-top: 30%;
+    padding-left: 5%;
 }
 .box-sab {
     font-family: 'Ephesis', cursive;
@@ -291,35 +301,37 @@
     color: #ff3366;
 }
 .block {
-    padding-left: 40%;
     margin-bottom: 70px;
-    width: 80%;
+    width: 70%;
 }
 .block-sab {
     font-family: 'Ephesis', cursive;
     color: #ff3366;
     font-size: 30px;
     padding-bottom: 10px;
+    margin-left: 20%;
 }
 .block-title {
     padding-bottom: 10px;
     font-size: 20px;
     color: #999999;
     font-weight: bold;
+    margin-left: 20%;
 }
 .block-list {
     border: solid 1px #bbbbbb;
-    vertical-align: center;
-    width: 40%;
+    width: 95%;
+    margin: 0 30%;
 }
+
 .block-list-item-detail {
     border: solid 1px #bbbbbb;
-    padding-bottom: 40px;
+    padding-bottom: 40px ;
     background-color: #cccccc;
 }
 .block-list-item-description {
-    border: solid 1px #bbbbbb;
-    width: 85%;
+    border-top: solid 1px #bbbbbb;
+    width: 90%;
 }
 .card {
     display: flex;
@@ -330,8 +342,8 @@
 }
 .card-text {
     position: absolute;
-    top: 30%;
-    left: 20%;
+    top: 38%;
+    left: 18%;
     color: #fff;
     font-size: 40px;
 }
@@ -344,7 +356,7 @@
 }
 .card-service-category {
     position: absolute;
-    top: 30%;
+    top: 38%;
     right: 20%;
     font-size: 40px;
     color: #fff;
