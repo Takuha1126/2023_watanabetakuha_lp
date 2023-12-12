@@ -1,6 +1,4 @@
-.test {
-    max-width: 1445px;
-}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -23,6 +21,7 @@
     text-decoration: none;
     color:black;
 }
+
 .main-img{
     position: relative;
     text-align: right;
@@ -34,15 +33,18 @@
 
 
 }
+
 .main-about {
     text-align: left;
-}
-.main-text {
-    position: absolute;
-    top:20%;
-    font-family: 'Ephesis', cursive;
-    font-size: 400%;
     margin-left: 30%;
+}
+
+.main-text-ttl {
+    position: absolute;
+    top:15%;
+    font-family: 'Ephesis', cursive;
+    font-size: 70px;
+    
     color: #cc00cc;
 
 }
@@ -51,16 +53,15 @@
 }
 .main-text-tag {
     position: absolute;
-    top: 40%;
-    margin-left: 30%;
+    top: 39%;
     color: #cc00cc;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 25px;
 }
 .main-text-pickup {
     position: absolute;
     top:45%;
-    margin-left: 30%;
+    
     color: #bbbbbb;
     font-size: 20px;
 }
@@ -139,8 +140,10 @@
     padding-left:100px ;
     padding-bottom: 100px;
 }
+
+
 .item {
-    padding: 17%;
+    padding: 10% 20%;
 }
 .item-sab {
     font-family: 'Ephesis', cursive;
@@ -178,7 +181,7 @@
     text-align: center;
     color: #fff;
     font-size: 16px;
-    padding: 20px 50px;
+    padding: 20px 10px;
 }
 .item-img-group {
     background-color: #9933cc;
@@ -188,18 +191,19 @@
     color: #fff;
 }
 .img-group img {
-    width: 60%;
-    padding-top:30px;
-    padding-left: 20px;
+    width: 90%;
+    padding-top:40px;
     text-align: center;
+    padding-left: 10px;
 
 }
 .item-img-group-title{
     font-size: 20px;
-    padding: 20px 0;
+    padding: 20px 10px;
 }
 .item-img-group-about{
     font-size: 14px;
+    padding: 0 10px;
 }
 .flex-item {
     padding-top: 10%;
@@ -213,18 +217,22 @@
     color: #fff;
 }
 .img-card img {
-   width: 70%;
-   padding-top: 30px;
-   padding-left: 20px;
+   width: 90%;
+   padding-top: 40px;
+   padding-left: 10px;
 }
 .flex-card {
     padding-top: 10%;
     padding-right: 10px;
 }
 .item-img-card-title {
-    padding: 20px 0;
+    padding: 20px 10px;
     font-size: 20px;
 }
+.item-img-card-about {
+    padding: 0 10px;
+}
+
 .box {
     padding-bottom: 10px;
     padding-top: 10px;
@@ -266,7 +274,7 @@
 }
 
 .box-content {
-    padding: 15px 25px;
+    padding: 15px ;
 }
 .box-cat {
     position: absolute;
@@ -279,7 +287,7 @@
 }
 .box-ttl {
     color: #999999;
-    padding: 20px;
+    padding: 5px;
 }
 .tag {
     display: flex;
@@ -291,9 +299,13 @@
     padding-left: 10px;
     padding-bottom: 20px;
 }
+.box-date {
+    padding-right: 10px;
+}
 .box-center{
     text-align: center;
 }
+
 .box-botton{
     margin-top: 50px;
     border-radius: 50px;
@@ -306,8 +318,9 @@
     text-decoration: none;
     color: #ff3366;
 }
+
 .block {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 
 }
 .block-sab {
@@ -325,29 +338,45 @@
     margin-left: 30%;
 }
 .block-list {
-    border: solid 1px #bbbbbb;
-    width:40%;
     margin: 0 30%;
+
 }
 
 .block-list-item-detail {
     border: solid 1px #bbbbbb;
     background-color: #cccccc;
     padding: 30px 80px 40px 0;
-    width: 90px;
+    width: 25%;
     color:#555555
 
 }
 .block-list-item-description {
-    border-top: solid 1px #bbbbbb;
-    width: 70%;
-    padding-left: 10px;
+    border: solid 1px #bbbbbb;
+    width:30%;
+    padding-left: 5px;
     color: #555555;
+}
+@media screen and (max-width:1500px){
+    .card-img {
+        width: 50%;
+    }
+    .text {
+        width: 50%;
+    }
+}
+@media screen and (min-width:1367px){
+    .card-img {
+        width: 50%;
+    }
+    .text {
+        width: 50%;
+    }
 }
 .card {
     display: flex;
     position: relative;
 }
+
 .card-img img {
     width:100%;
 }
@@ -356,7 +385,7 @@
     top: 38%;
     left: 18%;
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .text {
@@ -366,11 +395,16 @@
 .text-img img {
     width: 100%;
 }
+@media screen and(max-width:1500px){
+   .card-service-category{
+    white-space: nowarp;
+   }
+}
 .card-service-category {
     position: absolute;
     top: 38%;
-    left: 40%;
-    font-size: 40px;
+    left: 30%;
+    font-size: 30px;
     color: #fff;
 }
 .comment-title {
